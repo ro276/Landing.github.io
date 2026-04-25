@@ -38,7 +38,7 @@
         }
 
         nav a:hover {
-            color: #f5f5f5;
+            color: #a90404;
         }
 
          .parent {
@@ -115,7 +115,7 @@
             color: #f5f5f5;
         }
 section{
-    padding: 20px;
+    padding: 10px;
     background-color: #a9a9a928;
 }
         footer {

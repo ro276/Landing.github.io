@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+ HEAD
 
         header {
             
@@ -52,15 +52,7 @@
           grid-column-gap: 8px;
          grid-row-gap: 10px;
 }
-       .div1{
-
-       }
-        .div2{
-
-        }
-.div3{
-    
-}
+  
 .sinfondo{
     background-color: transparent;
 }
@@ -160,10 +152,26 @@ section{
     font-weight: bold;
 }
 
+/* Radio group styles for joystick selection */
+.radio-group {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.radio-group label {
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 5px;
+}
+
 @media screen and (max-width: 600px) {
 
     
-=======
+
 
         header {
             margin: 0;
@@ -291,5 +299,15 @@ section{
   font-family: "Play", sans-serif;
   font-weight: 700;
   font-style: normal;
->>>>>>> 38e48fd786dba9319bbcd6a0703bd0f8285def40
+
+}
+.feedback {
+    text-align: center;
+    padding: 20px;
+    background-color: #a9a9a9;
+    margin-top: 20px;
+}
+.oculto {
+    display: none !important;
+}
 }

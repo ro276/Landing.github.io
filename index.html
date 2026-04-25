@@ -121,7 +121,44 @@ Te esperamos en La Culturosa (C. 8 1092, B1904 La Plata, Provincia de Buenos Air
     <button class="cta-button"> Inscribirse</button>
 </div>
 </section>
+<div class="parent">
+<form id="formulario">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" placeholder="Nombre y Apellído">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="tu.email@ejemplo.com">
+
+    <label>¿Tienes un Joystick?</label>
+    <div class="radio-group">
+        <input type="radio" id="joystick_si" name="joystick" value="si">
+        <label for="joystick_si">Sí</label>
+        <input type="radio" id="joystick_no" name="joystick" value="no">
+        <label for="joystick_no">No</label>
+    </div>
+
+    <label for="game">Juego de interés:</label>
+    <select id="game" name="game">
+        <option value="umvsf3">Ultimate Marvel vs Capcom 3</option>
+        <option value="mk9">Mortal Kombat 9</option>
+        <option value="ggst">Guilty Gear: Strive</option>
+        <option value="sf3">Street Fighter III: Third Strike</option>
+    </select>
+
+    
+
+    <button type="submit">Enviar</button>
+</form>
+
+
+
+<script src="script.js"></script>
+
 </div>
+</div>
+<section class="feedback oculto" id="feedback">
+    <p>¡Gracias Jugador <span id="name"></span>!</p>
+</section>
 <footer>
  2026 - LevelUp
  Organizado por Stick Breaker

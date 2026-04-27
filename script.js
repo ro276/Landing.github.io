@@ -34,5 +34,5 @@ function validarFormulario(event) {
      //respuestas mostradas
      elemento_feedback = document.getElementById("feedback");
      elemento_feedback.classList.add("oculto");
-     elemento_feedback.innerHTML = "¡Gracias Jugador " + valor_nombre + "! Te enviaremos información a " + valor_email;
+     elemento_feedback.innerHTML = "¡Gracias Jugador " + valor_nombre +"Ya le estaremos enviando datita sobre el evento a su correo "v;
 }
